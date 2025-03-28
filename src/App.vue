@@ -13,7 +13,7 @@ function decrementar() {
 </script>
 
 <template>
-  <h1>Contador</h1>
+  <h1>Contador do Mateus e Renan</h1>
   <p>Valor do Contador: {{ contador }}</p>
   <button v-on:click="incrementar">+</button>
   <button @click="decrementar">-</button>
